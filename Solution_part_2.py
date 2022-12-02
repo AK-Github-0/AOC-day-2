@@ -14,10 +14,10 @@ dict = {
 
 }
 
-f = open("ak.txt", "r")
+f = open("input.txt", "r")
 sum1 = 0
 for line in f:
   sum1 += dict3[line.split("\n")[0]]
 
 
-sum1
+print(sum1)
