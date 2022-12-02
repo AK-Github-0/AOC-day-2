@@ -2,9 +2,11 @@ dict3 = {
     "A X" : 4,
     "A Y" : 8,
     "A Z" : 3,
+    
     "B X" : 1,
     "B Y" : 5,
     "B Z" : 9,
+    
     "C X" : 7,
     "C Y" : 2,
     "C Z" : 6,
@@ -12,9 +14,9 @@ dict3 = {
 }
 
 f = open("input.txt", "r")
-sum1 = 0
+sum2 = 0
 for line in f:
-  sum1 += dict3[line.split("\n")[0]]
+  sum2 += dict3[line.split("\n")[0]]
 
 
-sum1
+print(sum2)
